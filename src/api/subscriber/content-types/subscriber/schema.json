@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribers",
+  "info": {
+    "singularName": "subscriber",
+    "pluralName": "subscribers",
+    "displayName": "Subscriber",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "bankdetail": {
+      "type": "text"
+    },
+    "clauses": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "shippings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::shipping.shipping",
+      "mappedBy": "subscriber"
+    },
+    "clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client.client",
+      "mappedBy": "subscriber"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

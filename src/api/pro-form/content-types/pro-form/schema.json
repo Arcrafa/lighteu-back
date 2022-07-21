@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pro_forms",
+  "info": {
+    "singularName": "pro-form",
+    "pluralName": "pro-forms",
+    "displayName": "ProForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "operation": {
+      "type": "enumeration",
+      "enum": [
+        "export",
+        "inport"
+      ]
+    },
+    "icoterm": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "numbercontainers": {
+      "type": "integer"
+    },
+    "paymentmethod": {
+      "type": "enumeration",
+      "enum": [
+        "cash",
+        "card"
+      ]
+    },
+    "homeport": {
+      "type": "string"
+    },
+    "destinationport": {
+      "type": "string"
+    },
+    "shipmentdate": {
+      "type": "datetime"
+    },
+    "deliverydate": {
+      "type": "datetime"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

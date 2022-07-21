@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shippings",
+  "info": {
+    "singularName": "shipping",
+    "pluralName": "shippings",
+    "displayName": "Shipping",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "web": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "subscriber": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subscriber.subscriber",
+      "inversedBy": "shippings"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

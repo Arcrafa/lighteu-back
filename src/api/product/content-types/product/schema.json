@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "hscode": {
+      "type": "string"
+    },
+    "presentation": {
+      "type": "enumeration",
+      "enum": [
+        "Box",
+        "Bag",
+        "Kilogram",
+        "Pound",
+        "Ton",
+        "Unit",
+        "Liter",
+        "Onze",
+        "Inch"
+      ]
+    },
+    "psu": {
+      "type": "decimal"
+    },
+    "pbu": {
+      "type": "decimal"
+    },
+    "documents": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "suppliers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::supplier.supplier",
+      "inversedBy": "products"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "bankdetail": {
+      "type": "text"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "subscriber": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subscriber.subscriber",
+      "inversedBy": "clients"
+    }
+  }
+}
