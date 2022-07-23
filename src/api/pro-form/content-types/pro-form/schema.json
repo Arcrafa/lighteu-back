@@ -55,6 +55,12 @@
     },
     "price": {
       "type": "decimal"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::item.item",
+      "mappedBy": "pro_form"
     }
   }
 }
