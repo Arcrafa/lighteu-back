@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-24T15:01:08.576Z"
+    "x-generation-date": "2022-09-03T18:37:33.297Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -281,6 +281,9 @@
                                               "email": {
                                                 "type": "string",
                                                 "format": "email"
+                                              },
+                                              "comment": {
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -964,6 +967,9 @@
                                             "email": {
                                               "type": "string",
                                               "format": "email"
+                                            },
+                                            "comment": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -13970,6 +13976,9 @@
               "email": {
                 "type": "string",
                 "format": "email"
+              },
+              "comment": {
+                "type": "string"
               }
             }
           }
@@ -14104,6 +14113,9 @@
                                               "email": {
                                                 "type": "string",
                                                 "format": "email"
+                                              },
+                                              "comment": {
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -14581,6 +14593,9 @@
                       "type": "string",
                       "format": "email"
                     },
+                    "comment": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -14784,6 +14799,9 @@
                                             "email": {
                                               "type": "string",
                                               "format": "email"
+                                            },
+                                            "comment": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -15260,6 +15278,9 @@
                   "email": {
                     "type": "string",
                     "format": "email"
+                  },
+                  "comment": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -15946,6 +15967,9 @@
                                   "email": {
                                     "type": "string",
                                     "format": "email"
+                                  },
+                                  "comment": {
+                                    "type": "string"
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -16655,6 +16679,9 @@
                                 "email": {
                                   "type": "string",
                                   "format": "email"
+                                },
+                                "comment": {
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
