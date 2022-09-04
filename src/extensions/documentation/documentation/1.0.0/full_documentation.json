@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-03T18:37:33.297Z"
+    "x-generation-date": "2022-09-04T01:39:54.230Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -140,6 +140,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "comment": {
+                "type": "string"
               }
             }
           }
@@ -648,6 +651,9 @@
                                                   }
                                                 }
                                               },
+                                              "comment": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -756,6 +762,9 @@
                           }
                         }
                       }
+                    },
+                    "comment": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -1334,6 +1343,9 @@
                                                 }
                                               }
                                             },
+                                            "comment": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -1442,6 +1454,9 @@
                         }
                       }
                     }
+                  },
+                  "comment": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -2498,6 +2513,9 @@
                                                                             }
                                                                           }
                                                                         },
+                                                                        "comment": {
+                                                                          "type": "string"
+                                                                        },
                                                                         "createdAt": {
                                                                           "type": "string",
                                                                           "format": "date-time"
@@ -2822,6 +2840,9 @@
                                                               }
                                                             }
                                                           },
+                                                          "comment": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -2926,6 +2947,9 @@
                                       }
                                     }
                                   }
+                                },
+                                "comment": {
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -4034,6 +4058,9 @@
                                                                           }
                                                                         }
                                                                       },
+                                                                      "comment": {
+                                                                        "type": "string"
+                                                                      },
                                                                       "createdAt": {
                                                                         "type": "string",
                                                                         "format": "date-time"
@@ -4358,6 +4385,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "comment": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -4462,6 +4492,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "comment": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -6122,6 +6155,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "comment": {
+                "type": "string"
               }
             }
           }
@@ -6282,6 +6318,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "comment": {
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -7438,6 +7477,9 @@
                                                                 }
                                                               }
                                                             },
+                                                            "comment": {
+                                                              "type": "string"
+                                                            },
                                                             "createdAt": {
                                                               "type": "string",
                                                               "format": "date-time"
@@ -7510,6 +7552,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "comment": {
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -7615,6 +7660,9 @@
                           }
                         }
                       }
+                    },
+                    "comment": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -7845,6 +7893,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "comment": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -9001,6 +9052,9 @@
                                                               }
                                                             }
                                                           },
+                                                          "comment": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -9073,6 +9127,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "comment": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -9178,6 +9235,9 @@
                         }
                       }
                     }
+                  },
+                  "comment": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -9327,6 +9387,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "comment": {
+                "type": "string"
               }
             }
           }
@@ -11061,6 +11124,9 @@
                                                                               }
                                                                             }
                                                                           },
+                                                                          "comment": {
+                                                                            "type": "string"
+                                                                          },
                                                                           "createdAt": {
                                                                             "type": "string",
                                                                             "format": "date-time"
@@ -11441,6 +11507,9 @@
                                                     }
                                                   }
                                                 },
+                                                "comment": {
+                                                  "type": "string"
+                                                },
                                                 "createdAt": {
                                                   "type": "string",
                                                   "format": "date-time"
@@ -11493,6 +11562,9 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "comment": {
+                                    "type": "string"
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -11566,6 +11638,9 @@
                           }
                         }
                       }
+                    },
+                    "comment": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -13370,6 +13445,9 @@
                                                                             }
                                                                           }
                                                                         },
+                                                                        "comment": {
+                                                                          "type": "string"
+                                                                        },
                                                                         "createdAt": {
                                                                           "type": "string",
                                                                           "format": "date-time"
@@ -13750,6 +13828,9 @@
                                                   }
                                                 }
                                               },
+                                              "comment": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -13802,6 +13883,9 @@
                                       }
                                     }
                                   }
+                                },
+                                "comment": {
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -13875,6 +13959,9 @@
                         }
                       }
                     }
+                  },
+                  "comment": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -14479,6 +14566,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "comment": {
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -15166,6 +15256,9 @@
                                                 }
                                               }
                                             },
+                                            "comment": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -15603,6 +15696,9 @@
                                                                   }
                                                                 }
                                                               }
+                                                            },
+                                                            "comment": {
+                                                              "type": "string"
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -16316,6 +16412,9 @@
                                                               }
                                                             }
                                                           },
+                                                          "comment": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -16863,6 +16962,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "comment": {
+                "type": "string"
               }
             }
           }
@@ -17754,6 +17856,9 @@
                                                     }
                                                   }
                                                 },
+                                                "comment": {
+                                                  "type": "string"
+                                                },
                                                 "createdAt": {
                                                   "type": "string",
                                                   "format": "date-time"
@@ -18152,6 +18257,9 @@
                                                                 }
                                                               }
                                                             },
+                                                            "comment": {
+                                                              "type": "string"
+                                                            },
                                                             "createdAt": {
                                                               "type": "string",
                                                               "format": "date-time"
@@ -18281,6 +18389,9 @@
                                       }
                                     }
                                   },
+                                  "comment": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -18333,6 +18444,9 @@
                           }
                         }
                       }
+                    },
+                    "comment": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -19294,6 +19408,9 @@
                                                   }
                                                 }
                                               },
+                                              "comment": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -19692,6 +19809,9 @@
                                                               }
                                                             }
                                                           },
+                                                          "comment": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -19821,6 +19941,9 @@
                                     }
                                   }
                                 },
+                                "comment": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -19873,6 +19996,9 @@
                         }
                       }
                     }
+                  },
+                  "comment": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

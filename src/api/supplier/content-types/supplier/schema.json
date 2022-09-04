@@ -4,7 +4,8 @@
   "info": {
     "singularName": "supplier",
     "pluralName": "suppliers",
-    "displayName": "Supplier"
+    "displayName": "Supplier",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -40,6 +41,9 @@
       "relation": "manyToMany",
       "target": "api::product.product",
       "inversedBy": "suppliers"
+    },
+    "comment": {
+      "type": "text"
     }
   }
 }

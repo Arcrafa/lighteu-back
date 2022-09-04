@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client",
     "pluralName": "clients",
-    "displayName": "Client"
+    "displayName": "Client",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -46,6 +47,9 @@
       "relation": "manyToOne",
       "target": "api::subscriber.subscriber",
       "inversedBy": "clients"
+    },
+    "comment": {
+      "type": "text"
     }
   }
 }

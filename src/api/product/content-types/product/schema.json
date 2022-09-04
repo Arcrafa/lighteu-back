@@ -64,13 +64,16 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::supplier.supplier",
-      "inversedBy": "products"
+      "mappedBy": "products"
     },
     "items": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::item.item",
       "mappedBy": "product"
+    },
+    "comment": {
+      "type": "text"
     }
   }
 }
