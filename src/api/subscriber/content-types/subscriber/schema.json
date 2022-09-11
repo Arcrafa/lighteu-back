@@ -52,7 +52,7 @@
       "mappedBy": "subscriber"
     },
     "email": {
-      "type": "email"
+      "type": "string"
     }
   }
 }

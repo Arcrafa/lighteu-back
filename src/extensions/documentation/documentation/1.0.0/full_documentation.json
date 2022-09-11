@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-04T01:39:54.230Z"
+    "x-generation-date": "2022-09-11T00:14:28.833Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -122,8 +122,7 @@
                 "type": "string"
               },
               "email": {
-                "type": "string",
-                "format": "email"
+                "type": "string"
               },
               "password": {
                 "type": "string",
@@ -187,8 +186,7 @@
                       "type": "string"
                     },
                     "email": {
-                      "type": "string",
-                      "format": "email"
+                      "type": "string"
                     },
                     "subscriber": {
                       "type": "object",
@@ -282,8 +280,7 @@
                                                 }
                                               },
                                               "email": {
-                                                "type": "string",
-                                                "format": "email"
+                                                "type": "string"
                                               },
                                               "comment": {
                                                 "type": "string"
@@ -631,8 +628,7 @@
                                                 "type": "string"
                                               },
                                               "email": {
-                                                "type": "string",
-                                                "format": "email"
+                                                "type": "string"
                                               },
                                               "subscriber": {
                                                 "type": "object",
@@ -708,8 +704,7 @@
                                   }
                                 },
                                 "email": {
-                                  "type": "string",
-                                  "format": "email"
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -879,8 +874,7 @@
                     "type": "string"
                   },
                   "email": {
-                    "type": "string",
-                    "format": "email"
+                    "type": "string"
                   },
                   "subscriber": {
                     "type": "object",
@@ -974,8 +968,7 @@
                                               }
                                             },
                                             "email": {
-                                              "type": "string",
-                                              "format": "email"
+                                              "type": "string"
                                             },
                                             "comment": {
                                               "type": "string"
@@ -1323,8 +1316,7 @@
                                               "type": "string"
                                             },
                                             "email": {
-                                              "type": "string",
-                                              "format": "email"
+                                              "type": "string"
                                             },
                                             "subscriber": {
                                               "type": "object",
@@ -1400,8 +1392,7 @@
                                 }
                               },
                               "email": {
-                                "type": "string",
-                                "format": "email"
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -2487,8 +2478,7 @@
                                                                           "type": "string"
                                                                         },
                                                                         "email": {
-                                                                          "type": "string",
-                                                                          "format": "email"
+                                                                          "type": "string"
                                                                         },
                                                                         "phone": {
                                                                           "type": "string"
@@ -4032,8 +4022,7 @@
                                                                         "type": "string"
                                                                       },
                                                                       "email": {
-                                                                        "type": "string",
-                                                                        "format": "email"
+                                                                        "type": "string"
                                                                       },
                                                                       "phone": {
                                                                         "type": "string"
@@ -7451,8 +7440,7 @@
                                                               "type": "string"
                                                             },
                                                             "email": {
-                                                              "type": "string",
-                                                              "format": "email"
+                                                              "type": "string"
                                                             },
                                                             "phone": {
                                                               "type": "string"
@@ -9026,8 +9014,7 @@
                                                             "type": "string"
                                                           },
                                                           "email": {
-                                                            "type": "string",
-                                                            "format": "email"
+                                                            "type": "string"
                                                           },
                                                           "phone": {
                                                             "type": "string"
@@ -10216,8 +10203,7 @@
                                     "type": "string"
                                   },
                                   "email": {
-                                    "type": "string",
-                                    "format": "email"
+                                    "type": "string"
                                   },
                                   "phone": {
                                     "type": "string"
@@ -12537,8 +12523,7 @@
                                   "type": "string"
                                 },
                                 "email": {
-                                  "type": "string",
-                                  "format": "email"
+                                  "type": "string"
                                 },
                                 "phone": {
                                   "type": "string"
@@ -14061,8 +14046,7 @@
                 "example": "string or id"
               },
               "email": {
-                "type": "string",
-                "format": "email"
+                "type": "string"
               },
               "comment": {
                 "type": "string"
@@ -14198,8 +14182,7 @@
                                                 }
                                               },
                                               "email": {
-                                                "type": "string",
-                                                "format": "email"
+                                                "type": "string"
                                               },
                                               "comment": {
                                                 "type": "string"
@@ -14547,8 +14530,7 @@
                                                 "type": "string"
                                               },
                                               "email": {
-                                                "type": "string",
-                                                "format": "email"
+                                                "type": "string"
                                               },
                                               "subscriber": {
                                                 "type": "object",
@@ -14624,8 +14606,7 @@
                                   }
                                 },
                                 "email": {
-                                  "type": "string",
-                                  "format": "email"
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -14680,8 +14661,7 @@
                       }
                     },
                     "email": {
-                      "type": "string",
-                      "format": "email"
+                      "type": "string"
                     },
                     "comment": {
                       "type": "string"
@@ -14887,8 +14867,7 @@
                                               }
                                             },
                                             "email": {
-                                              "type": "string",
-                                              "format": "email"
+                                              "type": "string"
                                             },
                                             "comment": {
                                               "type": "string"
@@ -15236,8 +15215,7 @@
                                               "type": "string"
                                             },
                                             "email": {
-                                              "type": "string",
-                                              "format": "email"
+                                              "type": "string"
                                             },
                                             "subscriber": {
                                               "type": "object",
@@ -15313,8 +15291,7 @@
                                 }
                               },
                               "email": {
-                                "type": "string",
-                                "format": "email"
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -15369,8 +15346,7 @@
                     }
                   },
                   "email": {
-                    "type": "string",
-                    "format": "email"
+                    "type": "string"
                   },
                   "comment": {
                     "type": "string"
@@ -15496,8 +15472,7 @@
                 }
               },
               "email": {
-                "type": "string",
-                "format": "email"
+                "type": "string"
               }
             }
           }
@@ -15677,8 +15652,7 @@
                                                               "type": "string"
                                                             },
                                                             "email": {
-                                                              "type": "string",
-                                                              "format": "email"
+                                                              "type": "string"
                                                             },
                                                             "subscriber": {
                                                               "type": "object",
@@ -16005,8 +15979,7 @@
                                                 }
                                               },
                                               "email": {
-                                                "type": "string",
-                                                "format": "email"
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -16061,8 +16034,7 @@
                                     }
                                   },
                                   "email": {
-                                    "type": "string",
-                                    "format": "email"
+                                    "type": "string"
                                   },
                                   "comment": {
                                     "type": "string"
@@ -16141,8 +16113,7 @@
                       }
                     },
                     "email": {
-                      "type": "string",
-                      "format": "email"
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -16392,8 +16363,7 @@
                                                             "type": "string"
                                                           },
                                                           "email": {
-                                                            "type": "string",
-                                                            "format": "email"
+                                                            "type": "string"
                                                           },
                                                           "subscriber": {
                                                             "type": "object",
@@ -16720,8 +16690,7 @@
                                               }
                                             },
                                             "email": {
-                                              "type": "string",
-                                              "format": "email"
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -16776,8 +16745,7 @@
                                   }
                                 },
                                 "email": {
-                                  "type": "string",
-                                  "format": "email"
+                                  "type": "string"
                                 },
                                 "comment": {
                                   "type": "string"
@@ -16856,8 +16824,7 @@
                     }
                   },
                   "email": {
-                    "type": "string",
-                    "format": "email"
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -16943,8 +16910,7 @@
                 "type": "string"
               },
               "email": {
-                "type": "string",
-                "format": "email"
+                "type": "string"
               },
               "phone": {
                 "type": "string"
@@ -17003,8 +16969,7 @@
                       "type": "string"
                     },
                     "email": {
-                      "type": "string",
-                      "format": "email"
+                      "type": "string"
                     },
                     "phone": {
                       "type": "string"
@@ -17830,8 +17795,7 @@
                                                   "type": "string"
                                                 },
                                                 "email": {
-                                                  "type": "string",
-                                                  "format": "email"
+                                                  "type": "string"
                                                 },
                                                 "phone": {
                                                   "type": "string"
@@ -18555,8 +18519,7 @@
                     "type": "string"
                   },
                   "email": {
-                    "type": "string",
-                    "format": "email"
+                    "type": "string"
                   },
                   "phone": {
                     "type": "string"
@@ -19382,8 +19345,7 @@
                                                 "type": "string"
                                               },
                                               "email": {
-                                                "type": "string",
-                                                "format": "email"
+                                                "type": "string"
                                               },
                                               "phone": {
                                                 "type": "string"

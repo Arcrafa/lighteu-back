@@ -40,7 +40,7 @@
       "inversedBy": "shippings"
     },
     "email": {
-      "type": "email"
+      "type": "string"
     },
     "comment": {
       "type": "text"
