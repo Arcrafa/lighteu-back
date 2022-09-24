@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-11T00:14:28.833Z"
+    "x-generation-date": "2022-09-24T15:09:27.965Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1590,9 +1590,6 @@
                                 "icoterm": {
                                   "type": "string"
                                 },
-                                "quantity": {
-                                  "type": "integer"
-                                },
                                 "numbercontainers": {
                                   "type": "integer"
                                 },
@@ -1616,10 +1613,6 @@
                                 "deliverydate": {
                                   "type": "string",
                                   "format": "date-time"
-                                },
-                                "price": {
-                                  "type": "number",
-                                  "format": "float"
                                 },
                                 "items": {
                                   "type": "object",
@@ -3134,9 +3127,6 @@
                               "icoterm": {
                                 "type": "string"
                               },
-                              "quantity": {
-                                "type": "integer"
-                              },
                               "numbercontainers": {
                                 "type": "integer"
                               },
@@ -3160,10 +3150,6 @@
                               "deliverydate": {
                                 "type": "string",
                                 "format": "date-time"
-                              },
-                              "price": {
-                                "type": "number",
-                                "format": "float"
                               },
                               "items": {
                                 "type": "object",
@@ -6100,9 +6086,6 @@
               "icoterm": {
                 "type": "string"
               },
-              "quantity": {
-                "type": "integer"
-              },
               "numbercontainers": {
                 "type": "integer"
               },
@@ -6126,10 +6109,6 @@
               "deliverydate": {
                 "type": "string",
                 "format": "date-time"
-              },
-              "price": {
-                "type": "number",
-                "format": "float"
               },
               "items": {
                 "type": "array",
@@ -6183,9 +6162,6 @@
                     "icoterm": {
                       "type": "string"
                     },
-                    "quantity": {
-                      "type": "integer"
-                    },
                     "numbercontainers": {
                       "type": "integer"
                     },
@@ -6209,10 +6185,6 @@
                     "deliverydate": {
                       "type": "string",
                       "format": "date-time"
-                    },
-                    "price": {
-                      "type": "number",
-                      "format": "float"
                     },
                     "items": {
                       "type": "object",
@@ -6257,9 +6229,6 @@
                                               "icoterm": {
                                                 "type": "string"
                                               },
-                                              "quantity": {
-                                                "type": "integer"
-                                              },
                                               "numbercontainers": {
                                                 "type": "integer"
                                               },
@@ -6283,10 +6252,6 @@
                                               "deliverydate": {
                                                 "type": "string",
                                                 "format": "date-time"
-                                              },
-                                              "price": {
-                                                "type": "number",
-                                                "format": "float"
                                               },
                                               "items": {
                                                 "type": "object",
@@ -7757,9 +7722,6 @@
                   "icoterm": {
                     "type": "string"
                   },
-                  "quantity": {
-                    "type": "integer"
-                  },
                   "numbercontainers": {
                     "type": "integer"
                   },
@@ -7783,10 +7745,6 @@
                   "deliverydate": {
                     "type": "string",
                     "format": "date-time"
-                  },
-                  "price": {
-                    "type": "number",
-                    "format": "float"
                   },
                   "items": {
                     "type": "object",
@@ -7831,9 +7789,6 @@
                                             "icoterm": {
                                               "type": "string"
                                             },
-                                            "quantity": {
-                                              "type": "integer"
-                                            },
                                             "numbercontainers": {
                                               "type": "integer"
                                             },
@@ -7857,10 +7812,6 @@
                                             "deliverydate": {
                                               "type": "string",
                                               "format": "date-time"
-                                            },
-                                            "price": {
-                                              "type": "number",
-                                              "format": "float"
                                             },
                                             "items": {
                                               "type": "object",
@@ -11059,9 +11010,6 @@
                                                                           "icoterm": {
                                                                             "type": "string"
                                                                           },
-                                                                          "quantity": {
-                                                                            "type": "integer"
-                                                                          },
                                                                           "numbercontainers": {
                                                                             "type": "integer"
                                                                           },
@@ -11085,10 +11033,6 @@
                                                                           "deliverydate": {
                                                                             "type": "string",
                                                                             "format": "date-time"
-                                                                          },
-                                                                          "price": {
-                                                                            "type": "number",
-                                                                            "format": "float"
                                                                           },
                                                                           "items": {
                                                                             "type": "object",
@@ -13379,9 +13323,6 @@
                                                                         "icoterm": {
                                                                           "type": "string"
                                                                         },
-                                                                        "quantity": {
-                                                                          "type": "integer"
-                                                                        },
                                                                         "numbercontainers": {
                                                                           "type": "integer"
                                                                         },
@@ -13405,10 +13346,6 @@
                                                                         "deliverydate": {
                                                                           "type": "string",
                                                                           "format": "date-time"
-                                                                        },
-                                                                        "price": {
-                                                                          "type": "number",
-                                                                          "format": "float"
                                                                         },
                                                                         "items": {
                                                                           "type": "object",
@@ -18170,9 +18107,6 @@
                                                             "icoterm": {
                                                               "type": "string"
                                                             },
-                                                            "quantity": {
-                                                              "type": "integer"
-                                                            },
                                                             "numbercontainers": {
                                                               "type": "integer"
                                                             },
@@ -18196,10 +18130,6 @@
                                                             "deliverydate": {
                                                               "type": "string",
                                                               "format": "date-time"
-                                                            },
-                                                            "price": {
-                                                              "type": "number",
-                                                              "format": "float"
                                                             },
                                                             "items": {
                                                               "type": "object",
@@ -19720,9 +19650,6 @@
                                                           "icoterm": {
                                                             "type": "string"
                                                           },
-                                                          "quantity": {
-                                                            "type": "integer"
-                                                          },
                                                           "numbercontainers": {
                                                             "type": "integer"
                                                           },
@@ -19746,10 +19673,6 @@
                                                           "deliverydate": {
                                                             "type": "string",
                                                             "format": "date-time"
-                                                          },
-                                                          "price": {
-                                                            "type": "number",
-                                                            "format": "float"
                                                           },
                                                           "items": {
                                                             "type": "object",

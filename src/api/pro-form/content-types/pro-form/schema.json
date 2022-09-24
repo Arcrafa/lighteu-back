@@ -28,9 +28,6 @@
     "icoterm": {
       "type": "string"
     },
-    "quantity": {
-      "type": "integer"
-    },
     "numbercontainers": {
       "type": "integer"
     },
@@ -52,9 +49,6 @@
     },
     "deliverydate": {
       "type": "datetime"
-    },
-    "price": {
-      "type": "decimal"
     },
     "items": {
       "type": "relation",
