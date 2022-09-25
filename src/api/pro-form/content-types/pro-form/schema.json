@@ -58,6 +58,14 @@
     },
     "comment": {
       "type": "text"
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "pending",
+        "cancel"
+      ]
     }
   }
 }

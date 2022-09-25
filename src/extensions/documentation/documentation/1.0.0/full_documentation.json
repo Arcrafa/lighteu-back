@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-25T02:04:30.601Z"
+    "x-generation-date": "2022-09-25T04:02:32.241Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2934,6 +2934,14 @@
                                 "comment": {
                                   "type": "string"
                                 },
+                                "state": {
+                                  "type": "string",
+                                  "enum": [
+                                    "active",
+                                    "pending",
+                                    "cancel"
+                                  ]
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -4470,6 +4478,14 @@
                               },
                               "comment": {
                                 "type": "string"
+                              },
+                              "state": {
+                                "type": "string",
+                                "enum": [
+                                  "active",
+                                  "pending",
+                                  "cancel"
+                                ]
                               },
                               "createdAt": {
                                 "type": "string",
@@ -6126,6 +6142,14 @@
               },
               "comment": {
                 "type": "string"
+              },
+              "state": {
+                "type": "string",
+                "enum": [
+                  "active",
+                  "pending",
+                  "cancel"
+                ]
               }
             }
           }
@@ -6275,6 +6299,14 @@
                                               },
                                               "comment": {
                                                 "type": "string"
+                                              },
+                                              "state": {
+                                                "type": "string",
+                                                "enum": [
+                                                  "active",
+                                                  "pending",
+                                                  "cancel"
+                                                ]
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -7617,6 +7649,14 @@
                     "comment": {
                       "type": "string"
                     },
+                    "state": {
+                      "type": "string",
+                      "enum": [
+                        "active",
+                        "pending",
+                        "cancel"
+                      ]
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -7835,6 +7875,14 @@
                                             },
                                             "comment": {
                                               "type": "string"
+                                            },
+                                            "state": {
+                                              "type": "string",
+                                              "enum": [
+                                                "active",
+                                                "pending",
+                                                "cancel"
+                                              ]
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -9176,6 +9224,14 @@
                   },
                   "comment": {
                     "type": "string"
+                  },
+                  "state": {
+                    "type": "string",
+                    "enum": [
+                      "active",
+                      "pending",
+                      "cancel"
+                    ]
                   },
                   "createdAt": {
                     "type": "string",
@@ -11056,6 +11112,14 @@
                                                                           },
                                                                           "comment": {
                                                                             "type": "string"
+                                                                          },
+                                                                          "state": {
+                                                                            "type": "string",
+                                                                            "enum": [
+                                                                              "active",
+                                                                              "pending",
+                                                                              "cancel"
+                                                                            ]
                                                                           },
                                                                           "createdAt": {
                                                                             "type": "string",
@@ -13369,6 +13433,14 @@
                                                                         },
                                                                         "comment": {
                                                                           "type": "string"
+                                                                        },
+                                                                        "state": {
+                                                                          "type": "string",
+                                                                          "enum": [
+                                                                            "active",
+                                                                            "pending",
+                                                                            "cancel"
+                                                                          ]
                                                                         },
                                                                         "createdAt": {
                                                                           "type": "string",
@@ -18154,6 +18226,14 @@
                                                             "comment": {
                                                               "type": "string"
                                                             },
+                                                            "state": {
+                                                              "type": "string",
+                                                              "enum": [
+                                                                "active",
+                                                                "pending",
+                                                                "cancel"
+                                                              ]
+                                                            },
                                                             "createdAt": {
                                                               "type": "string",
                                                               "format": "date-time"
@@ -19696,6 +19776,14 @@
                                                           },
                                                           "comment": {
                                                             "type": "string"
+                                                          },
+                                                          "state": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                              "active",
+                                                              "pending",
+                                                              "cancel"
+                                                            ]
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
