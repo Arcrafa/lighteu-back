@@ -25,7 +25,7 @@
         "inport"
       ]
     },
-    "icoterm": {
+    "incoterm": {
       "type": "string"
     },
     "numbercontainers": {
