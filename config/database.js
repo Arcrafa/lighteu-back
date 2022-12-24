@@ -1,4 +1,4 @@
-const parse = require('pg-connection-string').parse;
+//const parse = require('pg-connection-string').parse;
 
 module.exports = ({ env }) => ({
   connection: {
